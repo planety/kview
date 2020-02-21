@@ -5,7 +5,7 @@
 ### Installation
 
 ```text
-nimble install https://github.com/planety/karax_view
+nimble install kview
 ```
 
 For karax html preview written in Nim.
