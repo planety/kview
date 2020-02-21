@@ -25,9 +25,10 @@ proc login*(name: string): string {.writeExample.} =
 
 
 suite "Test Karax View":
-  let 
+  const
     first = "first"
     second = "second"
+
   test "can generate test_login.html":
     discard login(first)
     discard login(second)
