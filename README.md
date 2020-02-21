@@ -2,6 +2,12 @@
 
 # karax-view
 
+### Installation
+
+```text
+nimble install https://github.com/planety/karax_view
+```
+
 For karax html preview written in Nim.
 
 ```nim
