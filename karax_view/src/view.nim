@@ -15,7 +15,7 @@ macro writeExample*(procDef: untyped): untyped =
     procName = definition[1]
   of nnkIdent:
     # Ident "hello"
-    procName = definition[0]
+    procName = definition
   else:
     discard
 
