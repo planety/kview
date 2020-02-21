@@ -1,6 +1,6 @@
-![Test Prologue](https://github.com/planety/karax_view/workflows/Test%20Prologue/badge.svg)
+![Test Prologue](https://github.com/planety/kview/workflows/Test%20Prologue/badge.svg)
 
-# karax-view
+# kview
 
 For karax html preview written in Nim.
 
@@ -8,7 +8,7 @@ For karax html preview written in Nim.
 # app.nim
 import os, strutils
 
-from karax_view import writeExample
+from kview import writeExample
 import karax / [karaxdsl, vdom]
 
 const 
@@ -54,4 +54,4 @@ assert readFile("app_login.html").strip() == """<div class="mt-3">
 """.strip()
 ```
 
-more examples in [tests](https://github.com/planety/karax_view/blob/master/tests/test.nim).
+more examples in [tests](https://github.com/planety/kview/blob/master/tests/test.nim).
