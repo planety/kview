@@ -2,7 +2,7 @@ import karax / [karaxdsl, vdom]
 
 import unittest, os, strutils
 
-import ../kview/src/view
+import ../src/kview
 
 
 const places = @["boston", "cleveland", "los angeles", "new orleans"]
