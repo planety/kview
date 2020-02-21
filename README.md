@@ -1,3 +1,5 @@
+![Test Prologue](https://github.com/planety/karax_view/workflows/Test%20Prologue/badge.svg)
+
 # karax-view
 
 For karax html preview written in Nim.
