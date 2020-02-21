@@ -15,4 +15,4 @@ requires "karax"
 
 
 task test, "Run all tests":
-  exec "nim c -r -f --gc:arc tests/test.nim"
+  exec "nim c -r tests/test.nim"
