@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.1.0"
+version       = "0.1.2"
 author        = "flywind"
 description   = "For karax html preview."
 license       = "BSD-3-Clause"
