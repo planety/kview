@@ -21,14 +21,12 @@ macro writeExample*(procDef: untyped): untyped =
 
   let
     res = ident"result"
-    procNameId = ident("karax_view_proc_name")
-    procNameDef = newLetStmt(procNameId, procName.toStrLit)
+    procNameStr = procName.toStrLit
     procWriteOnce = quote do:
       once:
         writeFile(getAppFilename()[0 .. ^5] & "_" &
-            `procNameId` & ".html", $(`res`))
+            `procNameStr` & ".html", $(`res`))
 
-  procDef.body.insert(0, procNameDef)
   procDef.body.add(procWriteOnce)
 
   return procDef
